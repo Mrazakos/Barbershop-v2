@@ -1,0 +1,204 @@
+.egesz {
+    padding:26px 5.2%;
+}
+
+header{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    align-items: center;
+    width:50%;
+    height: 100px;
+
+}
+h1 {
+    margin: 0;
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(250,250,250,1);
+
+
+}
+
+
+div.content{
+    margin: 50px auto;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.2;
+    background-color: rgb(250,240,240, 0.9);
+    border: #d5de28 5px solid;
+
+    border-radius: 30px;
+
+    max-width: 915px;
+    min-height:70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+    box-sizing: border-box;
+
+
+}
+.content h2{
+    font-size: 1.3em;
+    margin: 8px 0;
+    font-weight: bolder;
+}
+
+.content p{
+    margin: 0;
+}
+.content ul{
+    font-weight: normal;
+}
+.elerhetosegek {
+    font-weight: normal;
+}
+aside{
+    padding: 0;
+    border-radius: 10px;
+    width: 400px;margin-top: 3px;
+    min-height: 300px;
+    border: burlywood 3px solid;
+}
+iframe{
+    border-radius: 10px;
+}
+.terkep {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.barberek {
+    background-color: white;
+    width: 100%;
+
+}
+.egesz+div{
+    border-top: #d5de28 3px solid;
+}
+.paratlan{
+    background-color: black ;
+    color: rgb(250,250,250);
+    padding: 50px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.paratlan div{
+    vertical-align: middle;
+}
+.paros {
+    background-color: rgb(250,250,250);
+    color: black;
+    font-size: 1.2em;
+    padding: 50px;
+    text-align: right;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+.vonal{
+    width: 2px;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.paratlan .vonal{
+    border-color: white;
+}
+.paros .vonal{
+    border-color: black;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+    border: #d5de28 1px solid;
+}
+
+@media only screen and (max-width: 750px) {
+    body{
+        font-size: 0.8em;
+    }
+    .content{
+        max-width: 500px;
+        gap: 0;
+        margin: 0 auto 0 0;
+    }
+    .paratlan{
+        background-color: black ;
+        color: rgb(250,250,250);
+        padding: 20px;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .paros {
+        background-color: rgb(250, 250, 250);
+        color: black;
+        font-size: 1.2em;
+        padding: 20px;
+        text-align: right;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+    img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .content{
+        min-height: fit-content;
+    }
+    iframe{
+        display: none;
+    }
+
+    aside {
+        display: none ;
+    }
+    .content .vonal{
+        display: none;
+    }
+    .terkep h2{
+        display: none;
+    }
+    header{
+        margin: 0 auto 0 0;
+    }
+    .egesz {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+   body{
+       font-size: 0.5em;
+   }
+    img{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    header{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+

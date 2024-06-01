@@ -1,0 +1,120 @@
+div.egesz {
+
+    height: 100vh;
+}
+p{
+    margin-left: 15px;
+}
+
+.profil {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    height: 500px;
+
+    border-radius: 15px;
+    background: rgb(0,0,0, 0.7);
+    padding: 20px;
+    border: #d5de28 3px;
+
+}
+.profilkep{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+    border: #d5de28 3px;
+}
+
+img{
+    width: 250px;
+}
+.kep{
+    width: 250px;
+    margin-inline: auto;
+}
+
+a {
+    color: #d5de28;
+}
+
+
+
+.upload-box{
+    font-size: 12px;
+    background:rgb(250,250,250);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    width: 150px;
+    margin-bottom: 10px;
+    height: 35px;
+
+}
+.input-box{
+    width: 150px;
+}
+
+
+
+::-webkit-file-upload-button{
+    color: white;
+    background: dimgray;
+    padding:20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 0 1px 1px black;
+    outline: none;
+    height: 35px;
+}
+
+::-webkit-file-upload-button:hover{
+
+    background: darkgrey;
+
+}
+
+.input-box{
+    margin: 15px auto;
+}
+
+button {
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(250,250,250);
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    border:none;
+    font-size: 1em;
+}
+.adatok{
+    padding: 10px;
+    padding-left: 30px;
+    width: 400px;
+}
+.adat{
+    width: 130px;
+    margin: 40px 15px;
+}
+
+div.valtoztatas{
+    display: block;
+    float: left;
+    margin-inline: 0;
+    margin-top: 100px;
+    color: #d5de28;
+
+}
+
+div.torles{
+    display: block;
+    float: inline-end;
+    margin-inline: 0;
+    margin-top: 100px;
+    color: #d5de28;
+    padding-left: 50px;
+}

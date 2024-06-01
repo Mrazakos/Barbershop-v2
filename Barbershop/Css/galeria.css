@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding: 30px;
+}
+
+.container{
+    max-width:1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.title{
+    margin-bottom: 2rem;
+    margin-inline: auto;
+}
+.photo-gallery{
+
+    display: -ms-flexbox;
+    column-count: 3;
+    gap: 20px;
+
+}
+.collumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo{
+    width: 400px;
+
+}
+
+
+.photo img{
+    width: 400px;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+
+
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.upload-box{
+    font-size: 16px;
+    background:rgb(250,250,250);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 350px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.center {
+    width: 400px;
+    margin: 10px auto 20px auto;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background: dimgray;
+    padding:20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px black;
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover{
+
+    background: darkgrey;
+
+}
+
+.input-box{
+    margin: 15px auto;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(250,250,250);
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    border:none;
+    font-size: 1em;
+}
+
+@media(max-width: 768px){
+    .photo-gallery{
+        column-count: 1;
+    }
+}
